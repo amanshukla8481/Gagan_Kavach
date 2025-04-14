@@ -80,7 +80,3 @@
 - Implement color-based selection instead of only black.
 - Add auto-fire mechanism based on object movement.
 - Integrate remote controls via GUI or mobile app.
-
----
-
-Let me know if you want me to generate the **actual markdown file**, or help you create a GitHub repo with this directly. Also, I can add a `requirements.txt` if you list your Python packages.
