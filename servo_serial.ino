@@ -10,7 +10,7 @@ int tiltAngle = 120;
 
 void setup() {
   Serial.begin(115200);
-  panServo.attach(8);  // Connect pan servo to pin 9
+  panServo.attach(8);  // Connect pan servo to pin 8
   tiltServo.attach(10); // Connect tilt servo to pin 10
   panServo.write(panAngle);
   tiltServo.write(tiltAngle);
