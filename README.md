@@ -61,7 +61,7 @@
 2. Upload the Arduino code (`servo_control.ino`) to your Arduino board.
 3. On the Jetson Nano (or your host machine):
    ```bash
-   python3 gagan_kavach.py
+   python3 servo_serial.py
    ```
 4. Watch the cannon scan for black objects and automatically aim the laser.
 
