@@ -7,6 +7,8 @@ int panAngle = 90;
 int tiltAngle = 120;
   int off_x;
   int off_y;
+ const int LASER_PIN = 9;
+
 
 void setup() {
   Serial.begin(115200);
@@ -64,6 +66,9 @@ void loop() {
 //      panServo.write(panAngle);
 //     tiltServo.write(tiltAngle);
 //      }
+
+    bool isCentered = (off_x >= 600 && off_x <= 660) && (off_y >= 360 && off_y <= 410); //to check wether object in centre or not
+    digitalWrite(LASER_PIN, isCentered ? HIGH : LOW);  //laser will be on and hit on object
         if(off_x >= 1200) panAngle -=10;
      else if(off_x >= 900) panAngle -=5;
      else if(off_x >= 660) panAngle -=1;
