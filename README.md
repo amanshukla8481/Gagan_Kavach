@@ -1,4 +1,4 @@
-# 🛡️ Gagan_Kavach (Jetson_AI)
+# 🛡️ Gagan_Kavach (Jetson_A/System GPU)
 
 > **Ground-to-Air Defense Inspired Object Tracking Laser Cannon**  
 > A vision-based autonomous turret system for real-time aerial target detection and laser designation.
